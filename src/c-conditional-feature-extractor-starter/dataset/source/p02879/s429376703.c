@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(void)
+{
+  int A,B;
+  scanf("%u %u",&A,&B);
+  if(10 > A||10 > B)printf("%d",A * B);
+  else printf("-1");
+
+  return 0;
+}
