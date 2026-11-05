@@ -1,0 +1,1 @@
+a;main(b){scanf("%d%d",&a,&b);printf("a %s b",a<b?"<":a>b?"<":"==");return 0;}

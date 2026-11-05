@@ -1,0 +1,1 @@
+main(a,b,c){for(getchar();~scanf("%d%d%d",&a,&b,&c);puts((a+b-c&&b+c-a&&c+a-b)?"NO":"YES"))a*=a,b*=b,c*=c;}
