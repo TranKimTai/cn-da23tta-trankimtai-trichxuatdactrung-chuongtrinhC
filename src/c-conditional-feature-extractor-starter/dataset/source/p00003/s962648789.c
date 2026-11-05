@@ -1,1 +1,0 @@
-main(a,b,c){for(scanf("%*d");~scanf("%d%d%d",&a,&b,&c);puts((a+b-c&&a+c-b&&b+c-a)?"NO":"YES"))a*=a,b*=b,c*=c;}
